@@ -26,7 +26,9 @@ collections:
           - label: "values"
             name: "values"
             widget: "list"
-            fields:
+            format: json
+            fields: 
               - {label: "name", name: "name", widget: "string"}
-              - {label: "priceChange", name: "priceChange", widget: "string"}
+              - {label: "priceChange", name: "priceChange", widget: "number"}
+            
          
