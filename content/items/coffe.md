@@ -5,9 +5,13 @@ id: 1
 price: 3
 image: ../uploads/coffee.jpg
 description: A delicious coffee flavoured treat.
-#customField: 
- #   name: Pack Size
-  #  values: [{name: 'One Cake', priceChange: 0}, {name: 'Pack of 6', priceChange: 12.00}, {name: 'Pack of 12', priceChange: 25.00}]
+customField: 
+    name: Pack Size
+    values: [
+      {name: 'One Cake', priceChange: 0},
+      {name: 'Pack of 6', priceChange: 12.00},
+      {name: 'Pack of 12', priceChange: 25.00}
+    ]
 ---
 
 This is a yummy cake with coffee buttercream icing.
