@@ -3,7 +3,7 @@ title: Coffee Buttercream
 date: 2019-06-19
 id: 1
 price: 3
-image: ../../assets/coffee.jpg
+image: ../uploads/coffee.jpg
 description: A delicious coffee flavoured treat.
 #customField: 
  #   name: Pack Size

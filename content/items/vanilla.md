@@ -3,7 +3,7 @@ title: Vanilla buttercream with sprinkles
 date: 2019-06-19
 id: 6
 price: 3.50
-image: ../../assets/vanilla.jpg
+image: ../uploads/vanilla.jpg
 description: A delicious vanilla buttercream treat
 customField:
   name: Pack Size
