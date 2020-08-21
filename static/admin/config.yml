@@ -3,7 +3,7 @@ backend:
   repo: deilsonmartins/gatsby-teste
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "content/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "uploads" # The src attribute for uploaded media will begin with /images/uploads
+public_folder: "../uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "ecommerce" # Used in routes, e.g., /admin/collections/blog
