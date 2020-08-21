@@ -3,7 +3,7 @@ title: Double chocolate buttercream
 date: 2019-06-19
 id: 2
 price: 3
-image: ../../assets/double.jpg
+image: ../uploads/double.jpg
 description: A delicious chocolatey treat.
 customField: 
     name: Pack Size

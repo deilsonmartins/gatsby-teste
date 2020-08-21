@@ -3,7 +3,7 @@ title: Halloween cake
 date: 2019-06-19
 id: 3
 price: 2.50
-image: ../../assets/halloween.jpg
+image: ../uploads/halloween.jpg
 description: A scary but tasty treat.
 customField: 
     name: Pack Size
