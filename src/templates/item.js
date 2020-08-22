@@ -56,7 +56,7 @@ class Item extends React.Component {
   state = {
     selected: this.props.data.markdownRemark.frontmatter.customField.values[0].name
   }
-
+  
   setSelected = (value) => {
     this.setState({ selected: value })
   }
@@ -79,15 +79,18 @@ class Item extends React.Component {
   render() {
     const item = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <Heading>{item.frontmatter.title}</Heading>
 
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
 
-        <Price>£{this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
+        
         <Description>{item.frontmatter.description}</Description>
+        
+        <Price>R${this.updatePrice(item.frontmatter.price, item.frontmatter.customField.values)}</Price>
+
         <Dropdown
           id={item.frontmatter.customField.name}
           onChange={(e) => this.setSelected(e.target.value)}
@@ -106,7 +109,7 @@ class Item extends React.Component {
           data-item-custom1-name={item.frontmatter.customField ? item.frontmatter.customField.name : null}
           data-item-custom1-options={this.createString(item.frontmatter.customField.values)}
           data-item-custom1-value={this.state.selected}>
-          Add to basket
+          Adicionar ao Carrinho
         </BuyButton>
 
       </Layout>
