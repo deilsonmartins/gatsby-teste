@@ -22,11 +22,7 @@ collections:
         name: "customField"
         widget: "list"
         fields:
-          - label: "values"
-            name: "values"
-            widget: "list"
-            fields: 
-              - {label: "name", name: "name", widget: "string"}
-              - {label: "priceChange", name: "priceChange", widget: "number"}
+            - {label: "name", name: "name", widget: "string"}
+            - {label: "priceChange", name: "priceChange", widget: "number"}
             
          
