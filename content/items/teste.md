@@ -7,7 +7,7 @@ image: ../uploads/double.jpg
 description: teste teste
 customField:
   - name: pote pequeno
-    priceChange: 10
+    priceChange: 13
   - name: pote grande
     priceChange: 28
 ---

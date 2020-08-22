@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `E-commerce Snipcart and Gatsby Starter`,
-    author: `Issy Dennis`,
+    title: `E-commerce`,
+    author: `Já!`,
     description: `A simple e-commerce shop using Gatsby and Snipcart.`,
-    siteUrl: `https://gatsby-snipcart-starter.netlify.com/`,
+    siteUrl: ``,
   },
   plugins: [
     {

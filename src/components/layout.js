@@ -37,7 +37,7 @@ class Layout extends React.Component {
 
   componentDidMount() {
     if (window.Snipcart) {
-      window.Snipcart.api.configure('show_continue_shopping', true);
+      window.Snipcart.api.configure('continue comprando', true);
     }
   }
 
@@ -45,7 +45,7 @@ class Layout extends React.Component {
   render() {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    const siteName = "Gwen's Cake Shop"
+    const siteName = "Matheus Atacadão"
     let header
 
     if (location.pathname === rootPath) {
@@ -68,8 +68,7 @@ class Layout extends React.Component {
             {header}
             <MainSection>{children}</MainSection>
             <FooterStyled>
-              <strong>Gatsby Snipcart Starter
-           - Made by <ExternalLink href="https://www.issydennis.com/" target="_blank" rel="noopener noreferrer">Issy Dennis</ExternalLink>
+              <strong>Deilson M. Nathan A. Michael H. Matheus A. <ExternalLink href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Link</ExternalLink>
               </strong>
             </FooterStyled>
           </PageWrapper>

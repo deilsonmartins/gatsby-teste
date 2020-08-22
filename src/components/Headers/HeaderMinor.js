@@ -82,7 +82,7 @@ class HeaderMinor extends Component {
                 </ShopName>
                 <CartSummary className="snipcart-summary">
                     <a href="#" className="snipcart-checkout"> <ShoppingCart size='40px' /></a>
-                    <p>{this.state.items} yummy items</p>
+                    <p>{this.state.items} items</p>
                 </CartSummary>
 
             </HeaderMinorStyled>

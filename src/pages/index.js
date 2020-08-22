@@ -28,14 +28,14 @@ class BlogIndex extends React.Component {
         <SEO title="All items" />
       <ThumbnailsWrapper>
         {items.map(({ node }) => {
-          const { title, image, price } = node.frontmatter
+          const { title, image} = node.frontmatter
+          
           return (
             <ItemThumbnail
               key={node.fields.slug}
               link={node.fields.slug}
               heading={title}
               image={image.childImageSharp.fluid}
-              price={price}
             />
           )
         })}

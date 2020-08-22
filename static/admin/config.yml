@@ -15,7 +15,6 @@ collections:
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime", format: YYYY-MM-DD }
       - { label: "Id", name: "id", widget: "number" }
-      - { label: "Preço", name: "price", widget: "number" }
       - { label: "Imagem", name: "image", widget: "image" }
       - { label: "Descrição do Produto", name: "description", widget: "string" }
       - label: "Opções do produto"
