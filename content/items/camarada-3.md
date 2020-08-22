@@ -1,9 +1,9 @@
 ---
-title: Camarada 3
+title: Camarada 4
 date: 2020-08-22
-id: 2
+id: 4
 image: ../uploads/pretzel.jpg
-description: Melhor camarada 2 deste site
+description: Melhor camarada 4 deste site
 customField:
   - name: Pequeno
     priceChange: 45
