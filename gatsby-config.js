@@ -3,7 +3,7 @@ module.exports = {
     title: `E-commerce`,
     author: `Já!`,
     description: `A simple e-commerce shop using Gatsby and Snipcart.`,
-    siteUrl: ``,
+    siteUrl: `https://gatsby-snipcart-starter.netlify.com/`,
   },
   plugins: [
     {

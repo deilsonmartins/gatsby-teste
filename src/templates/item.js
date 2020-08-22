@@ -150,7 +150,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        price
         id
         image {
           childImageSharp {

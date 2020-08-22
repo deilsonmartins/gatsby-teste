@@ -65,7 +65,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            price
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {
